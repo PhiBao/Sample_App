@@ -1,0 +1,12 @@
+vi:
+  global:
+    logo: "ứng dụng mẫu"
+  static_pages:
+    home: "Trang Chủ"
+    about: "Về Chúng Tôi"
+    contact: "Liên Hệ"
+    help: "Trợ Giúp"
+    login: "Đăng Nhập"
+    welcome: "Chào mừng dến với ứng dụng mẫu"
+    news: "Tin Tức"
+    singup: "Đăng ký ngay!"
