@@ -10,3 +10,13 @@ en:
     welcome: "Welcome to Sample App"
     news: "News"
     singup: "Sign up now!"
+  users:
+    new:
+      signup: "Sign up"
+      create: "Create my account"
+  activerecord:
+    attributes:
+      user:
+        password: "Password"
+        password_confirmation: "Confirmation"
+        name: "Name"

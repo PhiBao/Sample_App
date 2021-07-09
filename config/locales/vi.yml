@@ -10,3 +10,13 @@ vi:
     welcome: "Chào mừng dến với ứng dụng mẫu"
     news: "Tin Tức"
     singup: "Đăng ký ngay!"
+  users:
+    new:
+      signup: "Đăng ký"
+      create: "Tạo tài khoản"
+  activerecord:
+    attributes:
+      user:
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+        name: "Tên người dùng"
