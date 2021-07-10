@@ -10,6 +10,11 @@ vi:
     welcome: "Chào mừng dến với ứng dụng mẫu"
     news: "Tin Tức"
     signup: "Đăng ký ngay!"
+    users: "Người dùng"
+    profile: "Hồ sơ"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
+    account: "Tài khoản"
   users:
     new:
       signup: "Đăng ký"

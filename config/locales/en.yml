@@ -9,7 +9,12 @@ en:
     login: "Log in"
     welcome: "Welcome to Sample App"
     news: "News"
-    singup: "Sign up now!"
+    signup: "Sign up now!"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Log out"
+    account: "Account"
   users:
     new:
       signup: "Sign up"
