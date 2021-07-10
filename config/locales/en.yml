@@ -22,3 +22,7 @@ en:
         password: "Password"
         password_confirmation: "Confirmation"
         name: "Name"
+  sessions:
+    new:
+      login: "Log in"
+      new_user: "New user?"
