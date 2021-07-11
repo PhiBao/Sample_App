@@ -29,3 +29,4 @@ vi:
     new:
       login: "Đăng Nhập"
       new_user: "Chưa có tài khoản?"
+      password: "Mật khẩu"

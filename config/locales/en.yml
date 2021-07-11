@@ -29,3 +29,4 @@ en:
     new:
       login: "Log in"
       new_user: "New user?"
+      password: "Password"
