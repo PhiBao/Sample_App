@@ -19,6 +19,12 @@ en:
     new:
       signup: "Sign up"
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+      updated: "Profile updated"
   activerecord:
     attributes:
       user:
