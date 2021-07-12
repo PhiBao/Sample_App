@@ -21,6 +21,12 @@ vi:
     new:
       signup: "Đăng ký"
       create: "Tạo tài khoản"
+    edit:
+      title: "Chỉnh sửa thông tin"
+      update: "Cập nhập thông tin của bạn"
+      save: "Lưu thay đổi"
+      change: "Thay đổi"
+      updated: "Cập nhập hồ sơ thành công"
   activerecord:
     attributes:
       user:

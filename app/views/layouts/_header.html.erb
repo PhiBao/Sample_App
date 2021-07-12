@@ -27,7 +27,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to t("static_pages.profile"), current_user %></li>
-              <li><%= link_to t("static_pages.settings"), '#' %></li>
+              <li><%= link_to t("static_pages.settings"), edit_user_path(current_user) %></li>
               <li class="divider"></li> 
               <li>
                 <%= link_to t("static_pages.logout"), logout_path, method: :delete %>
