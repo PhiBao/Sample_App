@@ -25,6 +25,14 @@ vi:
       save: "Lưu thay đổi"
       change: "Thay đổi"
       updated: "Cập nhập hồ sơ thành công"
+      danger: "Vui lòng đăng nhập trước."
+    index:
+      title: "Tất cả người dùng"
+      delete: "Xóa"
+      confirm: "Bạn chắc chắc chứ?"
+      deleted: "Xóa người dùng thành công"
+      previous: "<< Trước"
+      next: "Sau >>"
   activerecord:
     attributes:
       user:
@@ -37,3 +45,4 @@ vi:
       new_user: "Chưa có tài khoản?"
       password: "Mật khẩu"
       remember_me: "Nhớ tôi trên máy tính này"
+      danger: "Sai tài khoản hoặc mật khẩu"
