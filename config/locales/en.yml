@@ -27,6 +27,14 @@ en:
       save: "Save changes"
       change: "Change"
       updated: "Profile updated"
+      danger: "Please log in."
+    index:
+      title: "All users"
+      delete: "Delete"
+      confirm: "Are you sure?"
+      deleted: "User deleted"
+      previous: "<< Previous"
+      next: "Next >>"
   activerecord:
     attributes:
       user:
@@ -39,3 +47,4 @@ en:
       new_user: "New user?"
       password: "Password"
       remember_me: "Remember me on this computer"
+      danger: "Invalid email/password combination"

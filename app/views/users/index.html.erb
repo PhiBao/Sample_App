@@ -1,0 +1,12 @@
+<% provide(:title, 'All users') %>
+<h1><%= t "users.index.title" %></h1>
+
+<%= will_paginate @collection, :previous_label => t("users.index.previous"),
+                               :next_label => t("users.index.next") %>
+
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<%= will_paginate @collection, :previous_label => t("users.index.previous"),
+                               :next_label => t("users.index.next") %>
