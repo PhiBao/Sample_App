@@ -19,6 +19,7 @@ vi:
     new:
       signup: "Đăng ký"
       create: "Tạo tài khoản"
+      info: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
     edit:
       title: "Chỉnh sửa thông tin"
       update: "Cập nhập thông tin của bạn"
@@ -46,3 +47,11 @@ vi:
       password: "Mật khẩu"
       remember_me: "Nhớ tôi trên máy tính này"
       danger: "Sai tài khoản hoặc mật khẩu"
+  mailers:
+    title: "Ứng Dụng Mẫu"
+    activate: "Kích hoạt"
+    greeting: "Chào"
+    content: "Chào mứng đến với Ứng dụng mẫu! Nhấn vào đường dẫn bên dưới để kích hoạt tài khoản của bạn:"
+    success: "Kích hoạt tài khoản thành công!"
+    danger: "Đường dẫn kích hoạt không hợp lệ"
+    warning: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn."

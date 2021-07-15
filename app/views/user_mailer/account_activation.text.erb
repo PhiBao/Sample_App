@@ -1,0 +1,6 @@
+<%= t "mailers.greeting" %> <%= @user.name %>,
+
+<%= t "mailers.content" %>
+
+<%= edit_account_activation_url(:en, @user.activation_token,
+                                email: @user.email) %>

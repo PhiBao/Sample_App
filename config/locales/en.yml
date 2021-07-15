@@ -19,6 +19,7 @@ en:
     new:
       signup: "Sign up"
       create: "Create my account"
+      info: "Please check your email to activate your account."
     edit:
       title: "Edit user"
       update: "Update your profile"
@@ -46,3 +47,11 @@ en:
       password: "Password"
       remember_me: "Remember me on this computer"
       danger: "Invalid email/password combination"
+  mailers:
+    title: "Sample App"
+    activate: "Activate"
+    greeting: "Hi"
+    content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    success: "Account activated!"
+    danger: "Invalid activation link"
+    warning: "Account not activated. Check your email for the activation link."
