@@ -35,6 +35,12 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
+  
+  host = '64b212232c584d9a80745f5646fcf76f.vfs.cloud9.us-east-2.amazonaws.com' # Don't use this literally; use your local dev host instead
+  # Use this on the cloud IDE.
+  config.action_mailer.default_url_options = { host: host, protocol: 'https' }
+  # Use this if developing on localhost.
+  # config.action_mailer.default_url_options = { host: host, protocol: 'http' }
 
   config.action_mailer.perform_caching = false
 
@@ -62,7 +68,7 @@ Rails.application.configure do
   config.assets.quiet = true
 
   # Raises error for missing translations.
-  # config.i18n.raise_on_missing_translations = true
+  config.i18n.raise_on_missing_translations = true
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
