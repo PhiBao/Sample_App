@@ -64,7 +64,10 @@ vi:
       password: "Mật khẩu"
       remember_me: "Nhớ tôi trên máy tính này"
       danger: "Sai tài khoản hoặc mật khẩu"
+<<<<<<< HEAD
       forgot: "(quên mật khẩu)"
+=======
+>>>>>>> a193bad (Add account activation)
   mailers:
     title: "Ứng Dụng Mẫu"
     activate: "Kích hoạt"
@@ -72,6 +75,7 @@ vi:
     content: "Chào mứng đến với Ứng dụng mẫu! Nhấn vào đường dẫn bên dưới để kích hoạt tài khoản của bạn:"
     success: "Kích hoạt tài khoản thành công!"
     danger: "Đường dẫn kích hoạt không hợp lệ"
+<<<<<<< HEAD
     warning: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn."
   pw_resets:
     new:
@@ -103,3 +107,6 @@ vi:
       deleted: "Xóa micropost thành công"
       confirm: "Bạn chắc chứ?"
       
+=======
+    warning: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn."
+>>>>>>> a193bad (Add account activation)

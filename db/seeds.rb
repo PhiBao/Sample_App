@@ -18,6 +18,7 @@ User.create!(name: "Kiter",
                password_confirmation: password,
                activated: true,
                activated_at: Time.zone.now)
+<<<<<<< HEAD
 end
 
 # Generate microposts for a subset of users.
@@ -25,4 +26,6 @@ users = User.order(:created_at).take(6)
 50.times do 
     content = Faker::Lorem.sentence(word_count: 5)
     users.each { |user| user.microposts.create!(content: content) }
+=======
+>>>>>>> a193bad (Add account activation)
 end
