@@ -25,10 +25,10 @@ vi:
       info: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
     edit:
       title: "Chỉnh sửa thông tin"
-      update: "Cập nhập thông tin của bạn"
+      update: "Cập nhật thông tin của bạn"
       save: "Lưu thay đổi"
       change: "Thay đổi"
-      updated: "Cập nhập hồ sơ thành công"
+      updated: "Cập nhật hồ sơ thành công"
       danger: "Vui lòng đăng nhập trước."
     index:
       title: "Tất cả người dùng"
@@ -51,6 +51,7 @@ vi:
       password: "Mật khẩu"
       remember_me: "Nhớ tôi trên máy tính này"
       danger: "Sai tài khoản hoặc mật khẩu"
+      forgot: "(quên mật khẩu)"
   mailers:
     title: "Ứng Dụng Mẫu"
     activate: "Kích hoạt"
@@ -59,3 +60,19 @@ vi:
     success: "Kích hoạt tài khoản thành công!"
     danger: "Đường dẫn kích hoạt không hợp lệ"
     warning: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn."
+  pw_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Tiếp theo"
+      info: "Đã gửi email với hướng dẫn đặt lại mật khẩu"
+      danger: "Không tìm thấy địa chỉ email"
+    view:
+      title: "Đặt lại mật khẩu"
+      header: "Vui lòng nhấn vào đường dẫn bên dưới để đặt lại mật khẩu:"
+      expire: "Đừng dẫn này sẽ quá hạn sau hai tiếng."
+      content: "Nếu bạn đã không cần đặt lại mật khẩu nữa, vui lòng bỏ qua email này và mật khẩu của bạn vẫn sẽ như cũ."
+      updated: "Cập nhật mật khẩu"
+    edit:
+      error: "không thể trống"
+      success: "Mật khẩu đã được đặt lại."
+      expired: "Mật khẩu đã quá hạn."
