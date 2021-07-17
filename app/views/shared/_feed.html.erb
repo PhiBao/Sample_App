@@ -1,0 +1,9 @@
+<% if @feed_items.any? %>
+  <ol class="microposts">
+    <%= render @feed_items %>
+  </ol>
+  <%= will_paginate @feed_items,
+                    params: { controller: :static_pages, action: :home }, 
+                    :previous_label => t("users.index.previous"),
+                    :next_label => t("users.index.next")%>
+<% end %>

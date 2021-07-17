@@ -1,17 +1,6 @@
 <% provide(:title, t("static_pages.home")) %>
-<div class="center jumbotron"> 
-  <h1><%= t "static_pages.welcome" %></h1>
-  
-  <h2>
-    This is the home page for the
-    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
-  
-  <%= link_to t("static_pages.signup"), signup_path, class: "btn btn-lg btn-primary" %> 
-</div>
-
-<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
-  "https://rubyonrails.org/" %>
-<%= link_to image_tag("kitten.jpg", alt: "Kitten pic", id: "kitten"),
-  "https://www.flickr.com/photos/deborah_s_perspective/14144861329" %>
+<% if logged_in? %>
+  <%= render 'layouts/logged-in-home' %>
+<% else %>
+  <%= render 'layouts/no-logged-in-home' %>
+<% end %>
