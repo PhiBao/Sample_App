@@ -76,3 +76,16 @@ vi:
       error: "không thể trống"
       success: "Mật khẩu đã được đặt lại."
       expired: "Mật khẩu đã quá hạn."
+  microposts:
+    show:
+      posted: "Đã đăng"
+      ago: "trước"
+    create:
+      success: "Tạo micropost thành công"
+      view: "xem hồ sơ của tôi"
+      post: "Đăng"
+      alert: "Kích thước tệp lớn nhất là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    destroy:
+      deleted: "Xóa micropost thành công"
+      confirm: "Bạn chắc chứ?"
+      

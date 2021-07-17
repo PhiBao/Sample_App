@@ -76,3 +76,16 @@ en:
       error: "can't be empty"
       success: "Password has been reset."
       expired: "Password reset has expired."
+  microposts:
+    show:
+      posted: "Posted"
+      ago: "ago"
+    create:
+      success: "Micropost created!"
+      view: "view my profile"
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+    destroy:
+      deleted: "Micropost deleted"
+      confirm: "You sure?"
+      
