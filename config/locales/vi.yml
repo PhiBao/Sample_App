@@ -84,4 +84,8 @@ vi:
     destroy:
       deleted: "Xóa micropost thành công"
       confirm: "Bạn chắc chứ?"
-      
+  relationships:
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
+    following: "đang theo dõi"
+    followers: "người theo dõi"

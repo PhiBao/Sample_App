@@ -84,4 +84,8 @@ en:
     destroy:
       deleted: "Micropost deleted"
       confirm: "You sure?"
-      
+  relationships:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "following"
+    followers: "followers"
