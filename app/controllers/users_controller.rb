@@ -3,6 +3,7 @@ class UsersController < ApplicationController
                                         :following, :followers]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
+  before_action :find_user, only: :show
   
   def index
     @users = User.where(activated: true).paginate(page: params[:page])
@@ -13,7 +14,6 @@ class UsersController < ApplicationController
   end
   
   def show
-    @user = User.find(params[:id])
     redirect_to root_url and return unless @user.activated?
     @microposts = @user.microposts.paginate(page: params[:page])
   end
@@ -25,27 +25,31 @@ class UsersController < ApplicationController
       flash[:info] = t("users.new.info")
       redirect_to root_url
     else 
-      render 'new'
+      render "new"
     end
   end
   
   def edit
-    @user = User.find(params[:id])
   end
   
   def update
-    @user = User.find(params[:id])
     if @user.update(user_params)
       flash[:success] = t("users.edit.updated")
       redirect_to @user
     else
-      render 'edit'
+      render "edit"
     end
   end
   
   def destroy
-    User.find(params[:id]).destroy
-    flash[:success] = t("users.index.deleted")
+    if User.find(params[:id]).destroy
+      flash[:success] = t("users.index.deleted")
+    else
+      flash[:danger] = t("users.index.failed")
+    end
+    redirect_to users_url
+  rescue ActiveRecord::RecordNotFound
+    flash[:danger] = t("global.not_found")
     redirect_to users_url
   end
   
@@ -76,10 +80,19 @@ class UsersController < ApplicationController
     def correct_user
       @user = User.find(params[:id])
       redirect_to(root_url) unless current_user?(@user)
+    rescue ActiveRecord::RecordNotFound
+      redirect_to root_url
     end
     
     # Confirms an admin user.
     def admin_user
       redirect_to(root_url) unless current_user.admin?
+    end
+    
+    # Find a user
+    def find_user
+      @user = User.find(params[:id])
+    rescue ActiveRecord::RecordNotFound
+      redirect_to root_url
     end
 end

@@ -1,6 +1,22 @@
 en:
   global:
     logo: "sample app"
+    error: "error"
+    form: "The form contains"
+    not_found: "User not found"
+    intro: "This is the home page for the"
+    name: "sample application"
+    about_html: 'The <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, part of the <a href="https://www.learnenough.com/">Learn Enough</a>
+              family of tutorials, is a <a href="https://www.railstutorial.org/book">book</a>
+              and <a href="https://screencasts.railstutorial.org/">screencast series</a>
+              to teach web development with <a href="https://rubyonrails.org/">Ruby on Rails</a>. This is the sample app for the tutorial.'
+    contact_html: 'Contact the Ruby on Rails Tutorial about the sample app at the 
+                  <a href="https://www.railstutorial.org/contact">contact page</a>.'
+    help_html: 'Get help on the Ruby on Rails Tutorial at the
+                <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>.
+                To get help on this sample app, see the 
+                <a href="https://www.railstutorial.org/book">
+                  <em>Ruby on Rails Tutorial</em> book</a>.'
   static_pages:  
     home: "Home"
     about: "About"
@@ -34,6 +50,7 @@ en:
       deleted: "User deleted"
       previous: "<< Previous"
       next: "Next >>"
+      failed: "User didn't deleted"
   activerecord:
     attributes:
       user:
@@ -81,6 +98,7 @@ en:
       view: "view my profile"
       post: "Post"
       alert: "Maximum file size is 5MB. Please choose a smaller file."
+      compose: "Compose new micropost..."
     destroy:
       deleted: "Micropost deleted"
       confirm: "You sure?"
