@@ -29,5 +29,4 @@ class ApplicationController < ActionController::Base
         parsed_locale.to_sym :
         nil
     end
-  
 end
