@@ -1,6 +1,9 @@
 vi:
   global:
     logo: "ứng dụng mẫu"
+    error: "lỗi"
+    form: "Biểu mẫu chứa"
+    not_found: "Không tìm thấy người dùng"
   static_pages:
     home: "Trang Chủ"
     about: "Về Chúng Tôi"
@@ -34,6 +37,7 @@ vi:
       deleted: "Xóa người dùng thành công"
       previous: "<< Trước"
       next: "Sau >>"
+      failed: "Xóa người dùng không thành công"
   activerecord:
     attributes:
       user:
