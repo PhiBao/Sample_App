@@ -1,6 +1,8 @@
 vi:
   global:
     logo: "ứng dụng mẫu"
+    error: "lỗi"
+    form: "Biểu mẫu chứa"
   static_pages:
     home: "Trang Chủ"
     about: "Về Chúng Tôi"
