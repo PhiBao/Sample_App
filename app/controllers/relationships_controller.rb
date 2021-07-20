@@ -8,6 +8,8 @@ class RelationshipsController < ApplicationController
       format.html { redirect_to @user }
         format.js
     end
+  rescue ActiveRecord::RecordNotFound
+    redirect_to root_url
   end
   
   def destroy
@@ -17,5 +19,7 @@ class RelationshipsController < ApplicationController
       format.html { redirect_to @user }
       format.js
     end
+  rescue ActiveRecord::RecordNotFound
+    redirect_to root_url
   end
 end

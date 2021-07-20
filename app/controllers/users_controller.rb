@@ -54,16 +54,14 @@ class UsersController < ApplicationController
   end
   
   def following
-    @title = "Following"
-    @user = User.find(params[:id])
+    init("Following")
     @users = @user.following.paginate(page: params[:page])
     render 'show_follow'
   end
   
   
   def followers
-    @title = "Followers"
-    @user = User.find(params[:id])
+    init("Followers")
     @users = @user.followers.paginate(page: params[:page])
     render 'show_follow'
   end
@@ -72,6 +70,13 @@ class UsersController < ApplicationController
   
     def user_params
       params.require(:user).permit(:name, :email, :password, :password_confirmation)
+    end
+    
+    def init(title)
+      @title = title
+      @user = User.find(params[:id])
+    rescue ActiveRecord::RecordNotFound
+      redirect_to root_url
     end
     
     # Before filters
