@@ -4,6 +4,19 @@ vi:
     error: "lỗi"
     form: "Biểu mẫu chứa"
     not_found: "Không tìm thấy người dùng"
+    intro: "Đây là trang chủ cho"
+    name: "ứng dụng mẫu"
+    about_html: '<a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>,
+                một phần của bộ sách hướng dẫn <a href="https://www.learnenough.com/">Learn Enough</a>, là một <a href="https://www.railstutorial.org/book">cuốn sách</a>
+                và <a href="https://screencasts.railstutorial.org/">loạt video</a>
+                để dạy các nhà phát triển web với <a href="https://rubyonrails.org/">Ruby on Rails</a>. Đây là một ứng dụng mẫu cho hướng dẫn.'
+    contact_html: 'Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại
+                  <a href="https://www.railstutorial.org/contact">trang liên hệ</a>.'
+    help_html: 'Nhận trợ giúp trên Ruby on Rails Tutorial tại
+                <a href="https://www.railstutorial.org/help">Rails Tutorial Trang trợ giúp</a>.
+                Để nhận trợ giúp trên ứng dụng mẫu này, xem cuốn sách 
+                <a href="https://www.railstutorial.org/book">
+                  <em>Ruby on Rails Tutorial</em></a>.'
   static_pages:
     home: "Trang Chủ"
     about: "Về Chúng Tôi"
@@ -85,6 +98,7 @@ vi:
       view: "xem hồ sơ của tôi"
       post: "Đăng"
       alert: "Kích thước tệp lớn nhất là 5MB. Vui lòng chọn tệp nhỏ hơn."
+      compose: "Bạn muốn đăng gì?"
     destroy:
       deleted: "Xóa micropost thành công"
       confirm: "Bạn chắc chứ?"
