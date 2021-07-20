@@ -1,6 +1,9 @@
 en:
   global:
     logo: "sample app"
+    error: "error"
+    form: "The form contains"
+    not_found: "User not found"
   static_pages:  
     home: "Home"
     about: "About"
@@ -34,6 +37,7 @@ en:
       deleted: "User deleted"
       previous: "<< Previous"
       next: "Next >>"
+      failed: "User didn't deleted"
   activerecord:
     attributes:
       user:
