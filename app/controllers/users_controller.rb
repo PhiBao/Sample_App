@@ -5,6 +5,8 @@ class UsersController < ApplicationController
   
   def show
     @user = User.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+    redirect_to root_url
   end
   
   def create

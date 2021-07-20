@@ -1,6 +1,8 @@
 en:
   global:
     logo: "sample app"
+    error: "error"
+    form: "The form contains"
   static_pages:  
     home: "Home"
     about: "About"
