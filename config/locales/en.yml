@@ -64,10 +64,7 @@ en:
       password: "Password"
       remember_me: "Remember me on this computer"
       danger: "Invalid email/password combination"
-<<<<<<< HEAD
       forgot: "(forgot password)"
-=======
->>>>>>> a193bad (Add account activation)
   mailers:
     title: "Sample App"
     activate: "Activate"
@@ -75,7 +72,6 @@ en:
     content: "Welcome to the Sample App! Click on the link below to activate your account:"
     success: "Account activated!"
     danger: "Invalid activation link"
-<<<<<<< HEAD
     warning: "Account not activated. Check your email for the activation link."
   pw_resets:
     new:
@@ -106,7 +102,3 @@ en:
     destroy:
       deleted: "Micropost deleted"
       confirm: "You sure?"
-      
-=======
-    warning: "Account not activated. Check your email for the activation link."
->>>>>>> a193bad (Add account activation)

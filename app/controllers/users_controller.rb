@@ -13,13 +13,8 @@ class UsersController < ApplicationController
   end
   
   def show
-<<<<<<< HEAD
     redirect_to root_url and return unless @user.activated?
     @microposts = @user.microposts.paginate(page: params[:page])
-=======
-    @user = User.find(params[:id])
-    redirect_to root_url and return unless @user.activated?
->>>>>>> a193bad (Add account activation)
   end
   
   def create
